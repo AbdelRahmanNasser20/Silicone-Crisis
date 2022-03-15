@@ -1,0 +1,84 @@
+linux3[1730]% python3 silicon_crisis.py
+Enter SC Recipe File Name: second_test.json
+Select Next Action>> set mine 0 iron
+Select Next Action>> set mine 1 iron
+Select Next Action>> set factory 0 cog
+Select Next Action>> display mines
+    Mine 0
+   	 iron mine producing 5 per turn
+    Mine 1
+   	 iron mine producing 5 per turn
+Select Next Action>> display factories
+    Factory 0
+   	 cog factory producing 1 per turn, total production 0
+    Factory 1
+   	 Factory Currently Inactive
+Select Next Action>> display stockpile
+:::Current Stockpile:::
+Select Next Action>> end turn
+Mining...
+Making...
+Turn 1 Complete
+Select Next Action>> end turn
+Mining...
+Making...
+Turn 2 Complete
+Select Next Action>> display stockpile
+:::Current Stockpile:::
+    iron: 16
+    cog: 2
+Select Next Action>> end turn
+Mining...
+Making...
+Turn 3 Complete
+Select Next Action>> end turn
+Mining...
+Making...
+Turn 4 Complete
+Select Next Action>> end turn
+Mining...
+Making...
+Turn 5 Complete
+Select Next Action>> display factories
+    Factory 0
+   	 cog factory producing 1 per turn, total production 5
+    Factory 1
+   	 Factory Currently Inactive
+Select Next Action>> display stockpile
+:::Current Stockpile:::
+    iron: 40
+    cog: 5
+Select Next Action>> display recipes
+:::Recipes:::
+    circuit - produced in increments of 1
+    Required Materials:
+   	 silicon: 2
+   	 copper: 1
+    cog - produced in increments of 1
+    Required Materials:
+   	 iron: 2
+    factory - produced in increments of 1
+    Required Materials:
+   	 iron: 10
+   	 cog: 5
+    mine - produced in increments of 1
+    Required Materials:
+   	 iron: 5
+   	 cog: 2
+Select Next Action>> set factory 1 factory
+Select Next Action>> end turn
+Mining...
+Making...
+Turn 6 Complete
+Select Next Action>> display factories
+    Factory 0
+   	 cog factory producing 1 per turn, total production 6
+    Factory 1
+   	 factory factory producing 1 per turn, total production 1
+    Factory 2
+   	 Factory Currently Inactive
+Select Next Action>> how many iron are in a factory
+There are 20 iron in a factory
+Select Next Action>> how many iron are in a mine
+There are 9 iron in a mine
+Select Next Action>> quit
